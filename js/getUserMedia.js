@@ -37,7 +37,7 @@ const fullResolution =(event)=>{
    
     
 }
-document.querySelector("#smal").onclick=smallResolution;
-document.querySelector("#med").onclick=medResolution;
-document.querySelector("#fs").onclick=fullResolution;
+document.querySelector("#smal").addEventListener("click", smallResolution);
+document.querySelector("#med").addEventListener("click", medResolution);
+document.querySelector("#fs").ddEventListener("click", fullResolution);
 
